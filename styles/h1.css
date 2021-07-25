@@ -1,0 +1,48 @@
+.img-1 {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 0;
+	top: 0;
+}
+
+.img-2 {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 75px;
+	top: 0;
+}
+
+.img-3 {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 150px;
+	top: 0;
+}
+
+.img-4 {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 225px;
+	top: 0;
+}
+
+.img-5 {
+	position: absolute;
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 300px;
+	top: 0;
+}
+
+.img-6 {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 375px;
+	top: 0;
+}

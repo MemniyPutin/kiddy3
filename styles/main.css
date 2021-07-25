@@ -1,0 +1,36 @@
+@import "h1.css";
+@import "h2.css";
+@import "h3.css";
+@import "h4.css";
+@import "h5.css";
+
+.main {
+    position: relative;
+    background-image: url(../images/MAIN.BMP);
+    width: 600px;
+    height: 360px;
+}
+
+.score {
+    position: absolute;
+    width: 75px;
+    height: 72px;
+    left: 520px;
+    top: 144px;
+	color: yellow;
+    font-family: sans-serif;
+	font-weight: bold;
+    font-size: 30px;
+}
+
+.bot-score {
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 520px;
+    top: 324px;
+	color: yellow;
+    font-family: sans-serif;
+	font-weight: bold;
+    font-size: 30px;
+}

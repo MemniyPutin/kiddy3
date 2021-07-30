@@ -1,8 +1,4 @@
-@import "h1.css";
-@import "h2.css";
-@import "h3.css";
-@import "h4.css";
-@import "h5.css";
+@import "cells.css";
 
 .main {
     position: relative;
@@ -17,20 +13,20 @@
     height: 72px;
     left: 520px;
     top: 144px;
-	color: yellow;
+    color: yellow;
     font-family: sans-serif;
-	font-weight: bold;
+    font-weight: bold;
     font-size: 30px;
 }
 
 .bot-score {
-	position: absolute;
-	width: 75px;
-	height: 72px;
-	left: 520px;
+    position: absolute;
+    width: 75px;
+    height: 72px;
+    left: 520px;
     top: 324px;
-	color: yellow;
+    color: yellow;
     font-family: sans-serif;
-	font-weight: bold;
+    font-weight: bold;
     font-size: 30px;
 }

@@ -39,9 +39,9 @@ $(document).ready(function(e) {
 	var bot_score = 0;
 	var clicked = [0, 0];
 	for(let i = 0; i < 30; i++) {
-		$('.main').append('<div class="img img-' + (i + 1).toString() + '" data-cell="' + (i + 1).toString() + '"><img src="images/B_' + items[i].toString() + '.BMP" style="display: none" data-item="' + items[i].toString() + '"></div>')
+		$('.main').append('<div class="cell cell-' + (i + 1).toString() + '" data-cell="' + (i + 1).toString() + '"><img src="images/B_' + items[i].toString() + '.BMP" style="display: none" data-item="' + items[i].toString() + '"></div>')
 	}
-	$('.img').click(function(e) {
+	$('.cell').click(function(e) {
 		if(!locked) $(this).children('img').css('display', 'inherit');
 		var cell =  $(this).data('cell');
 		var item = $(this).children('img').data('item');
